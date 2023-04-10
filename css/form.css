@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,400i,700');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("img/bgeg.jpg");
+    overflow-x: hidden;
+}
+
+.registrationform{
+    width: 400px;
+    height: 875px;
+    background: #0f0c0c;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-35%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+   box-shadow: 0 0 5px 5px white;
+}
+
+.avatar{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(45% - 50px);
+    box-shadow: 10px 10px 5px #ccc;
+      -moz-box-shadow: 10px 10px 5px #ccc;
+      -webkit-box-shadow: 10px 10px 5px #ccc;
+      -khtml-box-shadow: 10px 10px 5px #ccc;
+}
+
+h1{
+    margin-top: 20%;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px; 
+    font-family: 'Lato', 'sans-serif';
+}
+
+p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-family: 'Lato', 'sans-serif';
+}
+
+.registrationform input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.registrationform input[type="text"], input[type="date"],input[type="number"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.registrationform input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #f23030;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.registrationform input[type=submit]:hover
+{
+    cursor: pointer;
+    background:  #cf0b0b;
+    color: #ffffff;
+}
+
+.registrationform a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+    font-family: 'Lato', 'sans-serif';
+}
+
+.registrationform a:hover
+{
+color: #d14a36;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
